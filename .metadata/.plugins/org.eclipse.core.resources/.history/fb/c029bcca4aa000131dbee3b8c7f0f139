@@ -1,0 +1,19 @@
+package dcll.jhak.MySimpleStark;
+
+import org.junit.*;
+
+public class SimpleStackImplTest {
+	SimpleStackImpl simpleStack;
+	
+	@Before
+	public void setup() {
+		simpleStack = new SimpleStackImpl();
+	}
+	
+	@Test
+	public void test() {
+		Assert.assertEquals(true, simpleStack.isEmpty());
+		simpleStack.push(new String("toto"));
+		Assert.assertEquals(false, simpleStack.isEmpty());
+	}
+}

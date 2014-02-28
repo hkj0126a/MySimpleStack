@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Spring</title>
+  <link rel="alternate" href="https://spring.io/blog" />
+  <link rel="self" href="https://spring.io/blog.atom" />
+  <id>http://spring.io/blog.atom</id>
+  <icon>https://spring.io/favicon.ico</icon>
+  <updated>2014-02-26T22:00:55Z</updated>
+  <entry>
+    <title>Getting Started with Spring Data REST</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/26/getting-started-with-spring-data-rest" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Greg Turnquist</name>
+    </author>
+    <id>tag:spring.io,2014-02-26:1423</id>
+    <updated>2014-02-26T22:00:55Z</updated>
+    <content type="html">&lt;p&gt;Hot on the heels of &lt;a href="http://spring.io/blog/2014/02/24/spring-data-release-train-codd-goes-ga"&gt;Spring Data's Codd GA release&lt;/a&gt;, there is a new Getting Started guide for Spring Data REST, &lt;a href="http://spring.io/guides/gs/accessing-data-rest/"&gt;Accessing Data with REST&lt;/a&gt;. It shows you how to create up an application with a JPA backend and a RESTful, hypermedia-driven front end.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://projects.spring.io/spring-data-rest"&gt;Spring Data REST&lt;/a&gt; does all the heavy lifting of building a powerful RESTful front end as well as writing the JPA queries for the back end. To top it off, the guide leverages Spring Boot so you are using the latest-and-greatest from the Spring team.&lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - February 25th, 2014</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/25/this-week-in-spring-february-25th-2014" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2014-02-26:1421</id>
+    <updated>2014-02-25T22:37:00Z</updated>
+    <content type="html">&lt;p&gt;Welcome back to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;. &lt;/p&gt;
+
+&lt;p&gt;Yesterday I was in Atlanta, GA for the &lt;a href="http://devnexus.com"&gt;amazing DevNexus conference&lt;/a&gt; talking to developers about the latest and greatest in the wide world of Spring, and about REST API development with Spring. Today I am in Montreal, Canada, for &lt;a href="http://confoo.ca"&gt;the ConFoo conference&lt;/a&gt;. I'll speak to developers this week about Spring's rich NoSQL and big-data support and building REST APIs with Spring.&lt;/p&gt;
+
+&lt;p&gt;As usual, we've got a lot to cover, so let's get into it! &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Spring Batch lead Michael Minella has announced that &lt;a href="https://spring.io/blog/2014/02/24/spring-batch-3-0-milestone-3-released"&gt;Spring Batch 3.0 M3 is now available&lt;/a&gt;. My favorite new feature? It implements all of the required pieces for JSR 352, the Batch JSR! Congratulations Michael and team, this is a &lt;em&gt;huge&lt;/em&gt; milestone! &lt;/li&gt;
+&lt;li&gt;Spring Mobile lead Roy Clarkson has &lt;a href="http://spring.io/blog/2014/02/21/spring-mobile-1-1-1-released"&gt;announced that Spring Mobile 1.1.1 is now available&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Spring Security lead Rob Winch announced &lt;a href="http://spring.io/blog/2014/02/19/spring-security-3-2-1-and-3-1-5-released"&gt;that Spring Security 3.2.1, and 3.1.5, are now available&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Rob &lt;em&gt;also&lt;/em&gt; announced that &lt;a href="http://spring.io/blog/2014/02/19/spring-ldap-2-0-1-released"&gt;Spring LDAP 2.0.1 is now available&lt;/a&gt;.  &lt;/li&gt;
+&lt;li&gt;Christoph Strobl has &lt;a href="http://spring.io/blog/2014/02/19/spring-data-redis-1-2-0-rc1-released"&gt;announced that Spring Data Redis 1.2.0&lt;/a&gt; is now available, also!&lt;/li&gt;
+&lt;li&gt;Join Juergen Hoeller and the Spring Team  to learn about &lt;a href="https://spring.io/blog/2014/02/11/webinar-spring-framework-4-0-on-java-8-march-25"&gt;Java 8 and Spring Framework 4.0 on March 25&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Don't miss Mattias Arthursson on &lt;a href="http://spring.io/blog/2014/02/11/webinar-spring-ldap-2-0-0-on-march-18-2014"&gt;March 18th, presenting Spring LDAP 2.0.0&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Tomcat fans should check out the webinar replay from Apache Committer Stuart Williams and Daniel Mikusa: &lt;a href="http://spring.io/blog/2014/02/18/webinar-replay-introduction-to-apache-tomcat-8"&gt;Introduction to Apache Tomcat 8&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The replay of the &lt;a href="http://spring.io/blog/2014/02/25/springone2gx-2013-replay-spring-data-community-lightning-talks"&gt;Spring Data Community Lightning Talks from SpringOne2GX 2013 are now up&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;The replay of the SpringOne2GX 2013 talk, &lt;a href="http://spring.io/blog/2014/02/25/springone2gx-2013-replay-researching-cancer-in-the-cloud-using-spring-neo4j-mongo-and-redis"&gt;_SpringOne2GX 2013 Replay: Researching Cancer In the Cloud Using Spring, Neo4J, Mongo and Redis
+  _&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data lead Oliver Gierke has announced that &lt;a href="http://spring.io/blog/2014/02/24/spring-data-release-train-codd-goes-ga"&gt;Spring Data Codd is now available and GA&lt;/a&gt;!   Check out the latest and greatest bits! &lt;/li&gt;
+&lt;li&gt;The latest cut of the &lt;a href="http://www.infoq.com/news/2014/02/axon-framework-2-1"&gt;Axon CQRS framework, version 2.1, is now available&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Pivotal CEO Paul Maritz has penned a nice post on &lt;a href="http://blog.gopivotal.com/news-2/pivotal-moves-to-establish-open-governance-model-for-cloud-foundry"&gt;the formation of a foundation around Cloud Foundry&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;
+&lt;em&gt;El Reg&lt;/em&gt; also has a nice post on the recent &lt;a href="http://www.theregister.co.uk/2014/02/24/cloud_foundry_foundation/"&gt;formation of the Cloud Foundry foundation&lt;/a&gt; in a post titled, &lt;em&gt;Cloud Foundry laps up attention in EMC, IBM, HP, Rackspace, SAP, VMware love-in&lt;/em&gt;. &lt;/li&gt;
+&lt;li&gt;The Zoltan blog has a nice post on &lt;a href="http://altfatterz.blogspot.com/2014/02/two-factor-authentication-with-spring.html"&gt;using two-factor authentication with Spring Security&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Biju Kunjummen on the  &lt;em&gt;the Java Code Geek's blog&lt;/em&gt; has put together a nice nice post on his first steps &lt;a href="http://www.javacodegeeks.com/2014/02/spring-integration-standalone-application-with-spring-boot.html"&gt;with Spring Boot and Spring Integration&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Xavier Padró' has published his followup post to last week's  post introducing &lt;a href="http://xpadro.blogspot.com/2014/02/thymeleaf-integration-with-spring-part-1.html"&gt;Spring and Thymeleaf&lt;/a&gt;. The new post looks at how &lt;a href="http://xpadro.blogspot.com/2014/02/thymeleaf-integration-with-spring-part-2.html"&gt;to build a form, and how to use Ajax with Thymeleaf&lt;/a&gt;. &lt;/li&gt;
+&lt;li&gt;Speaking of Spring Boot, the &lt;em&gt;OpenCredo blog&lt;/em&gt; has a nice post on their first steps with Spring Boot, as well! Check &lt;a href="http://www.opencredo.com/2014/02/24/experiences-with-spring-boot/"&gt;it out&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;JavaLobby has a nice post on using &lt;a href="http://java.dzone.com/articles/chaining-url-view-resolvers"&gt;custom &lt;code&gt;ViewResolver&lt;/code&gt;s with Spring MVC&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2013 Replay: Spring Data Community Lightning Talks</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/25/springone2gx-2013-replay-spring-data-community-lightning-talks" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-02-25:1420</id>
+    <updated>2014-02-25T14:33:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2013 in Santa Clara, CA &lt;/p&gt;
+
+&lt;p&gt;Speakers:  Peter Bell (MongoDB Master), Costin Leau (Elasticsearch), Christoph Strobl (Solr) and Michael Nitschinger (Couchbase)&lt;/p&gt;
+
+&lt;p&gt; Spring Data has started as an umbrella project consisting of many individual modules - per supported data store. While some of these data store modules - like the JPA and MongoDB ones - are maintained by Pivotal engineers a lot of community implementations have popped up lately. They build on the foundations of the Spring Data Core module and expose the Spring Data programming model for others stores. The session will feature maintainers and contributors of the community modules for Solr (Christoph Strobl), Elasticsearch (Costin Leau), Couchbase (Michael Nitschinger) and MongoDB (Peter Bell), who will talk about the latest and greatest features of the upcoming releases and give an impression of how they used the APIs of Spring Data Core to build the module. Spring Data has stared as an umbrella project consisting of many individual modules - per supported data store. While some of these data store modules - like the JPA and MongoDB ones - are maintained by Pivotal engineers a lot of community implementations have popped up lately. They build on the foundations of the Spring Data Core module and expose the Spring Data programming model for others stores. The session will feature maintainers and contributors of the community modules for Solr (Christoph Strobl), Elasticsearch (Costin Leau), Couchbase (Michael Nitschinger) and MongoDB (Peter Bell), who will talk about the latest and greatest features of the upcoming releases and give an impression of how they used the APIs of Spring Data Core to build the module.&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="//www.youtube.com/embed/5Wq6FtENEaQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2013 Replay: Researching Cancer In the Cloud Using Spring, Neo4J, Mongo and Redis</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/25/springone2gx-2013-replay-researching-cancer-in-the-cloud-using-spring-neo4j-mongo-and-redis" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-02-25:1419</id>
+    <updated>2014-02-25T12:44:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2013 in Santa Clara, CA &lt;/p&gt;
+
+&lt;p&gt;Speakers: Smitha Gudur, Manoj Joshi, Redbasin Networks &lt;/p&gt;
+
+&lt;p&gt;Cancer/life science drug research models are very rich in relationships, relationship heterogeneity and entity inter-dependencies. Most entity metadata is dynamic and unpredictable making it difficult to fit such models in traditional relational landscape. Redbasin Networks uses a hybrid Nosql strategy that supports composite and rich document metadata that is interconnected pervasively. Cancer and life science data is excessively nested. You will find this useful if you are building complex engineering and/or scientific applications, and need insights on how to merge data from many diverse data-sets and map it to an intuitive and effective graph database model. We will show using code examples how complex metadata can be engineered using Spring, Neo4J and Mongo, to create useful drug insights for the drug researcher, and also provide a platform for technologists to build sophisticated life science applications.&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="//www.youtube.com/embed/YWMjBk7hdUk" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Data Release Train Codd Goes GA</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/24/spring-data-release-train-codd-goes-ga" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Oliver Gierke</name>
+    </author>
+    <id>tag:spring.io,2014-02-24:1418</id>
+    <updated>2014-02-24T18:13:00Z</updated>
+    <content type="html">&lt;p&gt;I am happy to announce the final release of the Spring Data release train named &lt;a href="http://en.wikipedia.org/wiki/Edgar_F._Codd"&gt;Codd&lt;/a&gt;. The full list of participating modules looks as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spring Data Build 1.3 GA - &lt;a href="https://github.com/spring-projects/spring-data-build/issues?milestone=10&amp;amp;state=closed"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data Commons 1.7 GA - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-commons/1.7.0.RELEASE/"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/1.7.0.RELEASE/api/"&gt;JavaDoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/1.7.0.RELEASE/reference/htmlsingle/"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/1.7.0.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data JPA 1.5 GA - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-jpa/1.5.0.RELEASE/"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/1.5.0.RELEASE/api/"&gt;JavaDoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/1.5.0.RELEASE/reference/htmlsingle/"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/1.5.0.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data MongoDB 1.4 GA - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-mongodb/1.4.0.RELEASE/"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/1.4.0.RELEASE/api/"&gt;JavaDoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/1.4.0.RELEASE/reference/htmlsingle/"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/1.4.0.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data Neo4j 3.0 GA - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-neo4j/3.0.0.RELEASE/"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/3.0.0.RELEASE/api/"&gt;JavaDoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/3.0.0.RELEASE/reference/htmlsingle/"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/3.0.0.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data Solr 1.1 GA - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-solr/1.1.0.RELEASE/"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/1.1.0.RELEASE/api/"&gt;JavaDoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/1.1.0.RELEASE/reference/htmlsingle/"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/1.1.0.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data REST 2.0 GA - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-rest-webmvc/2.0.0.RELEASE/"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/2.0.0.RELEASE/api/"&gt;JavaDoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/2.0.0.RELEASE/reference/htmlsingle/"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/2.0.0.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;For this release train we've squashed over 260 tickets. We collected a &lt;a href="https://github.com/spring-projects/spring-data-commons/wiki/Release-Train-Codd"&gt;curated change log&lt;/a&gt; for the release in the Spring Data Commons wiki. We highly recommend to skim through it to get an impression of the new features for the modules you're using. For a complete list of changes see this &lt;a href="https://jira.springsource.org/issues/?filter=14430"&gt;JIRA query&lt;/a&gt;. Also, be sure to checkout the &lt;a href="https://spring.io/blog/2013/12/04/what-s-new-in-spring-data-mongodb-1-4-m1"&gt;blog&lt;/a&gt; &lt;a href="https://spring.io/blog/2014/02/07/what-s-new-in-spring-data-codd-rc1"&gt;posts&lt;/a&gt; covering some of the new features in detail.&lt;/p&gt;
+
+&lt;p&gt;The upcoming release train will be named &lt;a href="http://en.wikipedia.org/wiki/Edsger_W._Dijkstra"&gt;Dijkstra&lt;/a&gt;. We'll have quite a few new modules joining the release train. A preliminary schedule is available at the &lt;a href="https://github.com/spring-projects/spring-data-commons/wiki/Release-Train-Dijkstra"&gt;wiki page&lt;/a&gt; for the release. We're currently in the planning phase and will happily consider the input you cast in JIRA tickets.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Batch 3.0 Milestone 3 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/24/spring-batch-3-0-milestone-3-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Michael Minella</name>
+    </author>
+    <id>tag:spring.io,2014-02-24:1417</id>
+    <updated>2014-02-24T14:23:00Z</updated>
+    <content type="html">&lt;p&gt;Today we are pleased to announce the final milestone release towards Spring Batch 3.0 (&lt;a href="http://s3.amazonaws.com/dist.springframework.org/milestone/BATCH/spring-batch-3.0.0.M3-no-dependencies.zip"&gt;download&lt;/a&gt;).  This release demonstrates our support of JSR-352 and currently supports all its required features.  We also added a number of new features to Spring Batch for existing Spring Batch users.  Spring Batch is a lightweight, comprehensive framework for the development of robust batch applications.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="features-in-milestone-3" class="anchor" href="#features-in-milestone-3"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Features in Milestone 3&lt;/h2&gt;
+
+&lt;p&gt;As the final milestone for the Spring Batch 3.0.0 release, all major features for this release are complete.  The major features for this release include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JSR-352 support&lt;/li&gt;
+&lt;li&gt;Promote Spring Batch Integration to Spring Batch&lt;/li&gt;
+&lt;li&gt;Upgrade to support Spring 4 and Java 8&lt;/li&gt;
+&lt;li&gt;Other fixes and improvements&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;
+&lt;a name="jsr-352-support" class="anchor" href="#jsr-352-support"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;JSR-352 Support&lt;/h2&gt;
+
+&lt;p&gt;Spring has invested a large amount of time and resources in our contribution to this spec.  Our collaboration with the other industry experts via the JCP, JSR-352 validates that the batch patterns that Spring Batch has implemented and battle tested over the past six years in countless production environments is the best approach for building mission critical batch applications in the enterprise.&lt;/p&gt;
+
+&lt;p&gt;3.0.0.M3 is the first release of Spring Batch that is compliant with JSR-352 in that it passes all 152 of the SE TCK tests.  The Spring Batch implementation of JSR-352 allows users to use the familiar components of Spring Batch and still maintain compliance with java standards.  Spring Batch supports the configuration of jobs via the JSR-352 based XML, injection of batch artifacts developed against the javax.batch.* interfaces using the injection methods defined in the JSR (Spring's dependency injection, batch.xml, and inline configuration), as well as all scalability options provided in JSR-352 (splits and partitioning via threads).&lt;/p&gt;
+
+&lt;p&gt;Our goal for our implementation was simple: follow the rules of the JSR without breaking the rules already defined by Spring Batch.  In other words, implement the specification without impacting existing Spring Batch users.  We have done this by providing two "paths" for implementing batch jobs.  The first is the traditional Spring Batch way.  Using the Spring Batch XML or Spring's java configuration, developing against the Spring Batch interfaces, etc.  This will not change as part of the 3.0 release.  The second "path" is the JSR path.  This method of development uses the JSR-352 defined XML schema to configure your jobs, uses the JSR's &lt;code&gt;JobOperator&lt;/code&gt; for launching jobs and managing the metadata, and developers write code against the JSR's APIs.  It is important to note that these are two distinctly different paths.  While using Spring Batch components will work with JSR-352 based jobs, their use within those contexts will be dictated by the JSR's rules.  An example of this would be the injection of the contexts defined in JSR-352 (&lt;code&gt;StepContext&lt;/code&gt; and &lt;code&gt;JobContext&lt;/code&gt;).  If a job is configured using traditional Spring Batch methods and launched the via regular Spring Batch components, those contexts will not be available to the batch artifacts.  However, if you configure the job via the JSR-352 XML and launch it via the JSR-352 &lt;code&gt;JobOperator&lt;/code&gt;, those contexts will be injected where appropriate.&lt;/p&gt;
+
+&lt;p&gt;It is important to point out that Spring Batch does not just implement JSR-352.  It goes much further than the spec in a number of ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Components - Spring Batch provides 17 different &lt;code&gt;ItemReader&lt;/code&gt; implementations, 16 &lt;code&gt;ItemWriter&lt;/code&gt; implementations, and many other components that have years of testing in production environments under their belts.&lt;/li&gt;
+&lt;li&gt;Scalability - JSR-352 provides scaling options for a single JVM only (partitioning and splits both via threads).  Spring Batch provides multi-JVM scalability options including remote partitioning and remote chunking.&lt;/li&gt;
+&lt;li&gt;Spring dependency injection - While JSR-352 provides a form of "dependency injection light", there are a number of limitations that it places on the construction of batch artifacts (must use no-arg constructors for example).  Spring Batch is built on Spring and benefits from the power of the Spring Framework's capabilities.&lt;/li&gt;
+&lt;li&gt;Java based configuration - While Spring's XML based configuration options are well known, Spring and specifically Spring Batch, provide the option to configure your jobs using the type safety of java based configuration.&lt;/li&gt;
+&lt;li&gt;Hadoop/Big Data integration - Spring Batch is a foundational tool for interacting with Hadoop and other big data stores in the Spring ecosystem.  Spring for Apache Hadoop provides a number of batch related extensions to use Spring Batch to orchestrate work on a Hadoop cluster.  Spring XD builds on Spring Batch by providing both execution capabilities, but also management functionality similar to Spring Batch Admin for any environment.
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Spring will continue to participate in the evolution of JSR-352 as it goes through maintenance revisions and look forward to further contributions to the JCP process.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="promote-spring-batch-integration-to-spring-batch" class="anchor" href="#promote-spring-batch-integration-to-spring-batch"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Promote Spring Batch Integration to Spring Batch&lt;/h2&gt;
+
+&lt;p&gt;Spring Batch Integration has been a little known sub project of Spring Batch Admin for a few years now.  However, given how powerful the features this library provides and it's usefulness in enterprise development, we decided to move it from under the Spring Batch Admin umbrella to under the Spring Batch umbrella.  Designed to provide useful components that bridge batch and integration processing, Spring Batch Integration provides a number of options for launching and scaling batch applications.  Features include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Asynchronous ItemProcessor/ItemWriter - Executes the &lt;code&gt;ItemProcessor&lt;/code&gt; logic on another thread, returning a &lt;code&gt;Future&lt;/code&gt; to the &lt;code&gt;ItemWriter&lt;/code&gt;.  Once the &lt;code&gt;Future&lt;/code&gt; returns, the result is written.&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;JobLaunchingMessageHandler&lt;/code&gt;/&lt;code&gt;JobLaunchingMessageGateway&lt;/code&gt; - Provides the ability to launch jobs via Spring Messages received over channels.&lt;/li&gt;
+&lt;li&gt;Remote Chunking - Provides the ability to execute &lt;code&gt;ItemProcessor&lt;/code&gt; logic remotely (across multiple JVMs) via a master/slave configuration.&lt;/li&gt;
+&lt;li&gt;Remote Partitioning - Provides the ability to execute full chunks remotely (read/process/write across multiple JVMs) via a master/slave configuration.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;These components have allowed Spring Batch applications to seamlessly integrate and scale in many enterprises.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="upgrade-to-support-spring-4-and-java-8" class="anchor" href="#upgrade-to-support-spring-4-and-java-8"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Upgrade to support Spring 4 and Java 8&lt;/h2&gt;
+
+&lt;p&gt;As part of our efforts to keep dependencies up to date, we have updated Spring Batch and it's various modules to support Spring 4.  Because of these updates, Spring 4 will be the minimum supported version of Spring for Spring Batch 3.0.0.M3.  This not only brings along the numerous list of new features found in Spring 4, but it also provides the ability to run on Java 8 immediately.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="other-fixes-and-improvements" class="anchor" href="#other-fixes-and-improvements"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Other fixes and improvements&lt;/h2&gt;
+
+&lt;p&gt;Beyond the above large new features, we have also added some smaller features and continued to fix bugs.  New features we added include the addition of a &lt;code&gt;JobScope&lt;/code&gt; and support for SQLite.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="roadmap-to-a-release-candidate" class="anchor" href="#roadmap-to-a-release-candidate"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Roadmap to a release candidate&lt;/h2&gt;
+
+&lt;p&gt;So what's left?  As we approach our release candidate, there is still some minor work to be done.  We are still taking a hard look at the dependencies for Spring Batch and looking to upgrade as many as possible.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="conclusion" class="anchor" href="#conclusion"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;3.0.0.M3 marks a key milestone for Spring Batch.  It allows developers to test out the JSR-352 based functionality while still having the foundation of Spring and Spring Batch to rely upon.  It also brings new features to the framework.  We look forward to your comments and feedback in the forums, in social media, and in person!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Mobile 1.1.1 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/21/spring-mobile-1-1-1-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Roy Clarkson</name>
+    </author>
+    <id>tag:spring.io,2014-02-21:1415</id>
+    <updated>2014-02-21T04:24:47Z</updated>
+    <content type="html">&lt;p&gt;We're happy to announce that Spring Mobile 1.1.1 is now available. This is a maintenance release that primarily addresses an issue where some Samsung tablets were being incorrectly resolved as mobile devices. Additional testing was also added for Windows 8 and newer versions of iOS. This release is built against Spring Framework 3.2.8, and has been tested against Spring Framework 4.0.2. See the &lt;a href="https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10482&amp;amp;version=14284"&gt;changelog&lt;/a&gt; for more information.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Security 3.2.1 and 3.1.5 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/19/spring-security-3-2-1-and-3-1-5-released" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Rob Winch</name>
+    </author>
+    <id>tag:spring.io,2014-02-19:1413</id>
+    <updated>2014-02-19T19:03:00Z</updated>
+    <content type="html">&lt;p&gt;Spring Security 3.2.1 (&lt;a href="https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10040&amp;amp;version=14310"&gt;changelog&lt;/a&gt;) and 3.1.5 (&lt;a href="https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10040&amp;amp;version=14135"&gt;changelog&lt;/a&gt;) have been released and are now available from Maven Central.&lt;/p&gt;
+
+&lt;p&gt;Spring Security 3.2.1 brings a number of bug fixes including &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;fixing ordering issues with Java Configuration&lt;/li&gt;
+&lt;li&gt;changes to support Spring LDAP 2.0.1.RELEASE&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring LDAP 2.0.1 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/19/spring-ldap-2-0-1-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Rob Winch</name>
+    </author>
+    <id>tag:spring.io,2014-02-19:1414</id>
+    <updated>2014-02-19T18:55:16Z</updated>
+    <content type="html">&lt;p&gt;I'm pleased to announce the release of Spring LDAP 2.0.1. This release can be found in Maven Central and contains a number of bug fixes including a fix to work with Spring Security 3.2. For additional details, please see the &lt;a href="https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10071&amp;amp;version=14318"&gt;changelog&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Data Redis 1.2.0 RC1 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/19/spring-data-redis-1-2-0-rc1-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Christoph Strobl</name>
+    </author>
+    <id>tag:spring.io,2014-02-19:1408</id>
+    <updated>2014-02-19T12:04:11Z</updated>
+    <content type="html">&lt;p&gt;We are pleased to announce the first release candidate of Spring Data Redis 1.2.0!
+We raised the minimum Spring version to 3.2.8. This release is tested against Redis 2.6 and current 2.8 as well as the latest version of Spring Framework 4.0.2. It introduces a set of bug fixes as well as some improvements like support Jackson 2 serialization, a transaction aware cache manager, support for the &lt;a href="http://redis.io/commands/time/"&gt;TIME&lt;/a&gt; command and upgrades of the Redis drivers.&lt;/p&gt;
+
+&lt;p&gt;For a complete list of changes please see this &lt;a href="https://jira.springsource.org/issues/?filter=14427&amp;amp;jql=project%20%3D%20DATAREDIS%20AND%20resolution%20in%20(Complete%2C%20Fixed)%20AND%20fixVersion%20in%20(%221.2.0.RC1%22)%20ORDER%20BY%20updated%20DESC"&gt;JIRA query&lt;/a&gt;. The next step will be RC2 scheduled for March.
+We’re looking forward to your feedback on &lt;a href="https://twitter.com/SpringData"&gt;Twitter&lt;/a&gt; or in the &lt;a href="https://jira.springsource.org/browse/DATAREDIS"&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - February 18, 2014</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/19/this-week-in-spring-february-18-2014" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2014-02-19:1406</id>
+    <updated>2014-02-19T01:42:00Z</updated>
+    <content type="html">&lt;p&gt;Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! As usual, we've got a lot to cover so let's get to it!&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Spring Data lead Oliver Gierke has announced that &lt;a href="https://spring.io/blog/2014/02/17/spring-data-release-train-babbage-sr3-released"&gt;Spring Data Babbage SR3 has been released&lt;/a&gt;. The new release rolls up Spring Data Commons 1.6.4, Spring Data JPA 1.4.4, Spring Data MongoDB 1.3.4, and Spring Data Neo4J 2.3.4. Like Spring 4 before it, this release train ships with &lt;a href="http://search.maven.org/#artifactdetails%7Corg.springframework.data%7Cspring-data-releasetrain%7CBabbage-SR3%7Cpom"&gt;a Maven dependency &lt;em&gt;BOM&lt;/em&gt; (bill of materials)&lt;/a&gt; that can be used to level set the dependency versions.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;March 18th Webinar -&lt;/strong&gt; Join &lt;a href="https://twitter.com/marthursson"&gt;Mattias Arthursson&lt;/a&gt; as he &lt;a href="https://spring.io/blog/2014/02/11/webinar-spring-ldap-2-0-0-on-march-18-2014"&gt;introduces Spring LDAP 2.0.0&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;March 25 Webinar - &lt;/strong&gt;Be sure to check out &lt;a href="https://spring.io/blog/2014/02/11/webinar-spring-framework-4-0-on-java-8-march-25"&gt;Spring lead Juergen Hoeller's upcoming webinar: Spring Framework 4 on top of Java 8&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;SpringOne2GX 2013 replay: &lt;a href="https://spring.io/admin/blog/1403-springone2gx-2013-replay-spring-and-sencha-a-match-made-in-heaven-or-at-least-the-cloud"&gt;Spring and Sencha - A Match Made In Heaven (or at least the cloud)&lt;/a&gt; is now available&lt;/li&gt;
+&lt;li&gt;Check out a founding father of Spring - Rob Harrop talk about &lt;a href="https://spring.io/blog/2014/02/18/springone2gx-2013-replay-running-spring-in-amazon-web-services"&gt;Running Spring in Amazon Web Services&lt;/a&gt;, a great talk from SpringOne2GX 2013.&lt;/li&gt;
+&lt;li&gt;HCL Technologies AVP Srinivas Ajjarapu penned a &lt;a href="http://blog.gopivotal.com/case-studies-2/system-integrator-qa-saving-60-70-on-it-costs-with-pivotal-spring-and-more"&gt;nice post on some of the ways that  Pivotal's stack is helping IT lower spending&lt;/a&gt; and get more.&lt;/li&gt;
+&lt;li&gt;Nicolas Frankel is back, and has put together a nice post on &lt;a href="http://blog.frankel.ch/chaining-url-view-resolvers-in-spring-mvc"&gt;how to chain together Spring MVC &lt;code&gt;ViewResolver&lt;/code&gt;s&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Daniel Mikusa and Stuart Williams's webinar replay introducing &lt;a href="https://spring.io/blog/2014/02/18/webinar-replay-introduction-to-apache-tomcat-8"&gt;Apache Tomcat 8 is now available online&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Steve Perkins put together a nice post on his &lt;a href="http://steveperkins.net/use-spring-boot-next-project/"&gt;first steps with Spring Boot&lt;/a&gt;. Check it out!&lt;/li&gt;
+&lt;li&gt;John Thoms  has put together a nice example of configuring &lt;a href="https://github.com/jthoms/spring-boot-embedded-tomcat-ssl"&gt;Spring Boot's embedded Tomcat application server with SSL support&lt;/a&gt;. Check it out!&lt;/li&gt;
+&lt;li&gt;The stellar JHipster project, which sits on top of Spring Boot, is now available  &lt;a href="http://jhipster.github.io/2014/02/18/jhipster-release-0.10.0.html"&gt;complete with new monitoring endpoints and a lot more&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;Speaking of Spring Boot, &lt;a href="https://spring.io/blog/2014/02/12/spring-boot-1-0-0-rc2-released"&gt;Spring Boot RC 3 is now available&lt;/a&gt;. Don't hesitate to check it out.&lt;/li&gt;
+&lt;li&gt;Our pal Xavier Padró  is back with a nice look at how to &lt;a href="http://xpadro.blogspot.com/2014/02/thymeleaf-integration-with-spring-part-1.html"&gt;use the view templating library Thymeleaf with Spring&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;My pal Andy Piper and Eclipse  Paho (an MQTT client) lead Andy Piper has put together a nice post    &lt;a href="http://andypiper.co.uk/2014/02/14/spring-integration-mqtt/"&gt;on how to use Spring Integration's MQTT support&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Framework 4.0.2 &amp; 3.2.8 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/18/spring-framework-4-0-2-3-2-8-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Phil Webb</name>
+    </author>
+    <id>tag:spring.io,2014-02-19:1407</id>
+    <updated>2014-02-18T22:52:00Z</updated>
+    <content type="html">&lt;p&gt;Spring Framework 4.0.2 and 3.2.8 have been released and are now available from &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3Aorg.springframework"&gt;Maven Central&lt;/a&gt; and &lt;a href="https://repo.spring.io/release/org/springframework/"&gt;repo.spring.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We have brought forward both releases due to &lt;a href="https://jira.springsource.org/browse/SPR-11376"&gt;SPR-11376&lt;/a&gt; which strengthens Spring OXM to protect against a &lt;a href="https://www.owasp.org/index.php/XML_External_Entity_%28XXE%29_Processing"&gt;XXE vulnerability&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For a complete list of changes please refer to &lt;a href="https://jira.springsource.org/browse/SPR#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel"&gt;JIRA&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2013 Replay: Spring and Sencha - A Match Made In Heaven (or at least the cloud)</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/18/springone2gx-2013-replay-spring-and-sencha-a-match-made-in-heaven-or-at-least-the-cloud" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-02-18:1403</id>
+    <updated>2014-02-18T10:43:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2013 in Santa Clara, CA &lt;/p&gt;
+
+&lt;p&gt;Speakers: Lou Crocker, John Ferguson &lt;/p&gt;
+
+&lt;p&gt;Much like Spring burst onto the scene and became a defacto standard for Java, Sencha is vying for a similar role in the world of HTML5. From Ext JS for desktop development, Sencha Touch for mobile, and Sencha Architect as a design tool, it has become a pervasive technology in the new paradigm of multi-client development. In this session we will use our own SpringTrader reference application to illustrate integration techniques of Spring with Sencha. We will go beyond the basic wiring of a REST call with binding results to UI components, and look at mapping the Spring MVC and Sencha MVC architectures, along with other tips and tricks to streamline your mobile application development efforts.&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="//www.youtube.com/embed/DGyvKo7APss" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>Webinar Replay: Introduction to Apache Tomcat 8</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/18/webinar-replay-introduction-to-apache-tomcat-8" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-02-18:1401</id>
+    <updated>2014-02-18T10:39:00Z</updated>
+    <content type="html">&lt;p&gt;Speakers: Daniel Mikusa and Stuart Williams&lt;/p&gt;
+
+&lt;p&gt; Slides: &lt;a href="https://speakerdeck.com/dmikusapivotal/apache-tomcat-8-preview"&gt;https://speakerdeck.com/dmikusapivotal/apache-tomcat-8-preview&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Apache Tomcat 8 implements new versions of the Servlet, JSP and EL specifications as well as adding support for the new WebSocket specification. Work has also been completed on internal refactoring in a number of areas that will impact a number of Tomcat specific features. This presentation will provide an overview of the changes and new features introduced by both the updated specifications and the Tomcat specific changes. This session will enable attendees to identify the Tomcat 8 features of greatest interest to them and provide them with the information required to start planning their migration to Tomcat 8.&lt;/p&gt;
+
+&lt;iframe width="420" height="315" src="//www.youtube.com/embed/nHdyBjb9gbU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2013 Replay: Running Spring in Amazon Web Services</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/18/springone2gx-2013-replay-running-spring-in-amazon-web-services" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-02-18:1402</id>
+    <updated>2014-02-18T10:39:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2013 in Santa Clara, CA &lt;/p&gt;
+
+&lt;p&gt;Speaker: Rob Harrop &lt;/p&gt;
+
+&lt;p&gt;Running applications in the cloud presents a set of interesting new problems, constraints and opportunities. In this talk, attendees will learn how best to deploy, run and manage their Spring applications in the Amazon cloud. Covering everything from basic applications in Amazon Beanstalk to large-scale applications that span multiple regions and interact closely with on-premise resources, this talk will equip attendees with the knowledge they need to be successful running Spring in the cloud.&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="//www.youtube.com/embed/huUPkAfCwU8" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Data Release Train Babbage - SR3 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/17/spring-data-release-train-babbage-sr3-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Oliver Gierke</name>
+    </author>
+    <id>tag:spring.io,2014-02-17:1400</id>
+    <updated>2014-02-17T15:30:00Z</updated>
+    <content type="html">&lt;p&gt;I am happy to announce the availability of the third service release of the Spring Data Babbage release train. The release includes the following modules:&lt;/p&gt;
+
+&lt;p&gt;The Spring Data team has just released the second service release for the Babbage release train. It includes the following modules:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spring Data Commons 1.6.4 - &lt;a href="http://docs.spring.io/spring-data/commons/docs/1.6.4.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/1.6.4.RELEASE/api/"&gt;JavaDoc&lt;/a&gt; - &lt;a href="http://search.maven.org/#artifactdetails%7Corg.springframework.data%7Cspring-data-commons%7C1.6.4.RELEASE%7Cjar"&gt;Artifacts&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data JPA 1.4.4 - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/1.4.4.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/1.4.4.RELEASE/api/"&gt;JavaDoc&lt;/a&gt; - &lt;a href="http://search.maven.org/#artifactdetails%7Corg.springframework.data%7Cspring-data-jpa%7C1.4.4.RELEASE%7Cjar"&gt;Artifacts&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data MongoDB 1.3.4 - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/1.3.4.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/1.3.4.RELEASE/api/"&gt;JavaDoc&lt;/a&gt; - &lt;a href="http://search.maven.org/#artifactdetails%7Corg.springframework.data%7Cspring-data-mongodb%7C1.3.4.RELEASE%7Cjar"&gt;Artifacts&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data Neo4j 2.3.4 - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/2.3.4.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/2.3.4.RELEASE/api/"&gt;JavaDoc&lt;/a&gt; - &lt;a href="http://search.maven.org/#artifactdetails%7Corg.springframework.data%7Cspring-data-neo4j%7C2.3.4.RELEASE%7Cjar"&gt;Artifacts&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The release bundles a bunch of important enhancements and bug fixes and is a recommended upgrade. You can find all issues fixed in this release in our &lt;a href="https://jira.springsource.org/issues/?filter=14429"&gt;JIRA&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;An important addition to the release is the &lt;a href="http://search.maven.org/#artifactdetails%7Corg.springframework.data%7Cspring-data-releasetrain%7CBabbage-SR3%7Cpom"&gt;release train BOM&lt;/a&gt; that allows you to easily upgrade to the service release by including the following dependency into your project:&lt;/p&gt;
+
+&lt;div class="highlight highlight-xml"&gt;&lt;pre&gt;&lt;span class="nt"&gt;&amp;lt;dependencyManagement&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;dependencies&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;dependency&amp;gt;&lt;/span&gt;
+      &lt;span class="nt"&gt;&amp;lt;groupId&amp;gt;&lt;/span&gt;org.springframework-data&lt;span class="nt"&gt;&amp;lt;/groupId&amp;gt;&lt;/span&gt;
+      &lt;span class="nt"&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;spring-data-releasetrain&lt;span class="nt"&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;
+      &lt;span class="nt"&gt;&amp;lt;version&amp;gt;&lt;/span&gt;Babbage-SR3&lt;span class="nt"&gt;&amp;lt;/version&amp;gt;&lt;/span&gt;
+      &lt;span class="nt"&gt;&amp;lt;type&amp;gt;&lt;/span&gt;pom&lt;span class="nt"&gt;&amp;lt;/type&amp;gt;&lt;/span&gt;
+      &lt;span class="nt"&gt;&amp;lt;scope&amp;gt;&lt;/span&gt;import&lt;span class="nt"&gt;&amp;lt;/scope&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;/dependency&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;/dependencies&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/dependencyManagement&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This additional dependency will allow you to skip the declarations of the Spring Data module dependency declarations and makes sure you use compatible versions of all Spring Data modules.&lt;/p&gt;
+
+&lt;p&gt;In case you want to learn more about Spring Data repositories, be sure to register for our &lt;a href="https://spring.io/blog/2014/01/21/webinar-spring-data-repositories-best-practices"&gt;webinar&lt;/a&gt; tomorrow.&lt;/p&gt;
+
+&lt;p&gt;The next step will be the final release of the Codd release train scheduled for mid next week. More details about that &lt;a href="https://github.com/spring-projects/spring-data-commons/wiki/Release-Train-Codd"&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 1.0.0.RC2 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/12/spring-boot-1-0-0-rc2-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Phil Webb</name>
+    </author>
+    <id>tag:spring.io,2014-02-13:1399</id>
+    <updated>2014-02-12T21:38:00Z</updated>
+    <content type="html">&lt;p&gt;The second release candidate for &lt;a href="http://projects.spring.io/spring-boot"&gt;Spring Boot&lt;/a&gt; 1.0.0 has now been released and published to the &lt;a href="https://github.com/spring-projects/spring-framework/wiki/Spring-repository-FAQ"&gt;Spring Maven Repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; We have released 1.0.0.RC3 earlier than expected to address an unfortunate &lt;a href="https://github.com/spring-projects/spring-boot/issues/346"&gt;regression&lt;/a&gt; with RC2. Please use RC3 in preference to RC2.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This release incorporates over 40 &lt;a href="https://github.com/spring-projects/spring-boot/issues?milestone=3&amp;amp;page=2&amp;amp;state=closed"&gt;improvements and fixes&lt;/a&gt;. If you are upgrading from RC1, you may need to change some of your &lt;code&gt;import&lt;/code&gt; declarations as we have restructured a few packages with this release.&lt;/p&gt;
+
+&lt;p&gt;As well as bug fixes, there are a couple of new noteworthy features:&lt;/p&gt;
+
+&lt;h3&gt;
+&lt;a name="spring-jar" class="anchor" href="#spring-jar"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;spring jar&lt;/h3&gt;
+
+&lt;p&gt;Users of the &lt;code&gt;spring&lt;/code&gt; CLI application can now generate executable JARs directly from &lt;code&gt;.groovy&lt;/code&gt; scripts. Simply run &lt;code&gt;spring jar&lt;/code&gt; to create a self-contained runnable archive:&lt;/p&gt;
+
+&lt;div class="highlight highlight-sh"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;spring jar webapp.jar web.groovy
+&lt;span class="nv"&gt;$ &lt;/span&gt;java -jar webapp.jar
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can also use the same command from the embedded shell:&lt;/p&gt;
+
+&lt;div class="highlight highlight-sh"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;spring shell
+Spring Boot &lt;span class="o"&gt;(&lt;/span&gt;v1.0.0.RC2&lt;span class="o"&gt;)&lt;/span&gt;
+Hit TAB to complete. Type &lt;span class="s1"&gt;'help'&lt;/span&gt; and hit RETURN &lt;span class="k"&gt;for &lt;/span&gt;&lt;span class="nb"&gt;help&lt;/span&gt;, and &lt;span class="s1"&gt;'exit'&lt;/span&gt; to quit.
+
+&lt;span class="nv"&gt;$ &lt;/span&gt;jar webapp.jar web.groovy
+&lt;span class="nv"&gt;$ &lt;/span&gt;!java -jar webapp.jar
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;
+&lt;a name="gradle-version-numbers" class="anchor" href="#gradle-version-numbers"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Gradle version numbers&lt;/h3&gt;
+
+&lt;p&gt;The Spring Boot gradle plugin has been updated so that you can now omit the version numbers of known dependencies. For example:&lt;/p&gt;
+
+&lt;div class="highlight highlight-groovy"&gt;&lt;pre&gt;&lt;span class="n"&gt;buildscript&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;repositories&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+        &lt;span class="n"&gt;maven&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; &lt;span class="n"&gt;url&lt;/span&gt; &lt;span class="s2"&gt;"http://repo.springsource.org/libs-milestone"&lt;/span&gt; &lt;span class="o"&gt;}&lt;/span&gt;
+    &lt;span class="o"&gt;}&lt;/span&gt;
+    &lt;span class="n"&gt;dependencies&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+        &lt;span class="n"&gt;classpath&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"org.springframework.boot:spring-boot-gradle-plugin:1.0.0.RC2"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+    &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+
+&lt;span class="n"&gt;apply&lt;/span&gt; &lt;span class="nl"&gt;plugin:&lt;/span&gt; &lt;span class="s1"&gt;'java'&lt;/span&gt;
+&lt;span class="n"&gt;apply&lt;/span&gt; &lt;span class="nl"&gt;plugin:&lt;/span&gt; &lt;span class="s1"&gt;'spring-boot'&lt;/span&gt;
+
+&lt;span class="n"&gt;repositories&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;mavenCentral&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt;
+    &lt;span class="n"&gt;maven&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; &lt;span class="n"&gt;url&lt;/span&gt; &lt;span class="s2"&gt;"http://repo.springsource.org/libs-snapshot"&lt;/span&gt; &lt;span class="o"&gt;}&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+
+&lt;span class="n"&gt;dependencies&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="c1"&gt;// version numbers need not be specified for know dependencies&lt;/span&gt;
+    &lt;span class="n"&gt;compile&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"org.springframework.boot:spring-boot-starter"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;testCompile&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"org.springframework.boot:spring-boot-starter-test"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Take a look at the &lt;code&gt;spring-boot-dependencies&lt;/code&gt; &lt;a href="https://github.com/spring-projects/spring-boot/blob/v1.0.0.RC2/spring-boot-dependencies/pom.xml"&gt;pom.xml&lt;/a&gt; file for a complete list of known dependencies.&lt;/p&gt;
+
+&lt;h3&gt;
+&lt;a name="feedback" class="anchor" href="#feedback"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Feedback&lt;/h3&gt;
+
+&lt;p&gt;Thanks to everyone that has already provided feedback and offered pull-requests for the project. Your early support has been invaluable. Please do continue to &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;raise issues&lt;/a&gt; for both bugs and suggestions.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Webinar: Spring Framework 4.0 on Java 8 - March 25</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/11/webinar-spring-framework-4-0-on-java-8-march-25" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-02-11:1397</id>
+    <updated>2014-02-11T15:57:00Z</updated>
+    <content type="html">&lt;p&gt;Speaker: Juergen Hoeller &lt;/p&gt;
+
+&lt;p&gt;Spring has a track record of providing dedicated support for new Java generations in a timely fashion, and now it’s right about time to go Java 8: With Spring Framework 4.0, we're providing in-depth support for all relevant OpenJDK 8 features, including lambda expressions, JSR-310 Date and Time, parameter name discovery, and java.util.concurrent enhancements. This talk will illustrate basic Spring Framework 4.0 concepts, and selected Java 8 features within Spring's programming model, exploring the impact on application architectures.&lt;/p&gt;
+
+&lt;p&gt;  Tuesday, March 25, 2014 2:00 pm GMT Time (London, GMT) &lt;a href="http://play.gopivotal.com/OSS_Webinar_SpringFramework4onJava87AM_Register.html"&gt;Register&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tuesday, March 25, 2014 10:00 am Pacific Daylight Time (San Francisco, GMT-07:00) &lt;a href="http://play.gopivotal.com/OSS_Webinar_SpringFramework4onJava810AM_Register.html"&gt;Register&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Webinar: Spring LDAP 2.0.0 on March 18, 2014</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/11/webinar-spring-ldap-2-0-0-on-march-18-2014" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-02-11:1396</id>
+    <updated>2014-02-11T15:52:00Z</updated>
+    <content type="html">&lt;p&gt; Speaker: Mattias Arthusson&lt;/p&gt;
+
+&lt;p&gt; The recently released 2.0 version has given the Spring LDAP project a significant facelift. With new features like Spring Data Repository and QueryDSL support, a fluent LDAP query builder, and XML namespace configuration, LDAP administration applications can now be built more efficiently than ever.  This webinar will provide an overview of the goals and scope of Spring LDAP and demonstrate all the improvements in version 2.0, giving you plenty of hands-on tips along the way on how to make maximum use of the library.&lt;/p&gt;
+
+&lt;p&gt;Tuesday, March 18, 2014 2:00 pm GMT Time (London, GMT) &lt;a href="http://play.gopivotal.com/OSS_Webinar_SpringLDAP207AM_Register.html"&gt;Register&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tuesday, March 18, 2014 10:00 am Pacific Daylight Time (San Francisco, GMT-07:00) &lt;a href="http://play.gopivotal.com/OSS_Webinar_SpringLDAP2010AM_Register.html"&gt;Register&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2013 Replay: Real World Applications with Spring Data Neo4j</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/02/11/springone2gx-2013-replay-real-world-applications-with-spring-data-neo4j" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-02-11:1395</id>
+    <updated>2014-02-11T12:04:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2013 in Santa Clara, CA. &lt;/p&gt;
+
+&lt;p&gt;Speaker: Michael Hunger &lt;/p&gt;
+
+&lt;p&gt;Spring Data Neo4j in its 2.x version is a mature implementation of an object graph mapping framework, that both closely integrates with the Spring Framework and also offers unique modeling and querying opportunities by having chosen the property graph data model. This talk presents how several Neo Technology customers already put Spring Data Neo4j into production. They stem from a variety of domains -- gaming, server center monitoring, education, appliance management, energy market simulation and more. Based on those use-cases we discuss how to implement real-world applications with Spring Data Neo4j and the Spring Framework. First we want to discuss the business problems they had to solve and why a graph database was a good fit for them. After a quick intro to Spring Data Neo4j and Neo4j, we will talk about modeling choices and the benefits and implications of choosing a rich data model. We'll follow the example domains into code, from annotated domain entities, to the usage of the powerful repository abstractions. Showing how to use Neo4jTemplate to implement some lower level functionality will round off the core library usage. Building on this, we look into the integration aspects, how Spring Data Neo4j can be combined with other Spring projects, like Spring Data MongoDB, Spring Data REST, and Spring Batch. A quick demonstration shows on how to access Spring Data Neo4j from the (Web)-UI layer. The talk will close of with a glimpse into the future: Neo4j added some very interesting features in its 2.0 release. From node labels, automatic indexes and constraints to a transactional http endpoint for Cypher. These changes make it possible to rethink some aspects of Spring Data Neo4j, like type representation and indexing. But also some bigger ideas for changes ahead like basing the object graph mapping completely on Neo4j's Cypher Graph Query Language will be touched.&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="//www.youtube.com/embed/rXm48vc2QVc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+</feed>
+

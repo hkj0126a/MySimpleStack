@@ -1,0 +1,8 @@
+public class Item {
+	private Object value;
+	Item (Object value) {
+		setValue(value);
+	}
+	public Objet getValue() { return value;}
+	public void setValue(Object value) { this.value = value; }
+}
